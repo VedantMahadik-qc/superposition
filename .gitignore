@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.wav
+02_audible/superposition/stems/
+02_audible/superposition/output/
+*.mp4

@@ -1,0 +1,88 @@
+{
+  "blur_midi": {
+    "midi_asset": "4ec29f04-ca8b-4d24-acc6-670f2fab8cc1",
+    "jobs": {
+      "hype": "988c350f-c4b6-4101-8721-09c4164eb8d8",
+      "collapse": "b7865b95-2075-4583-93a7-c435c848372a"
+    },
+    "params": {
+      "hype": {
+        "strength": 0.55,
+        "reach": 0.3,
+        "margin": 0.2,
+        "threshold": 0.1,
+        "mask": [
+          [
+            3,
+            20.571408000000012,
+            34.28568000000004
+          ],
+          [
+            4,
+            20.571408000000012,
+            34.28568000000004
+          ],
+          [
+            3,
+            47.780437,
+            60.580436999999954
+          ],
+          [
+            4,
+            47.780437,
+            60.580436999999954
+          ]
+        ]
+      },
+      "collapse": {
+        "strength": 0.75,
+        "reach": 0.6,
+        "margin": 0.25,
+        "threshold": 0.08,
+        "mask": [
+          [
+            3,
+            20.571408000000012,
+            34.28568000000004
+          ],
+          [
+            4,
+            20.571408000000012,
+            34.28568000000004
+          ],
+          [
+            3,
+            47.780437,
+            60.580436999999954
+          ],
+          [
+            4,
+            47.780437,
+            60.580436999999954
+          ]
+        ]
+      }
+    }
+  },
+  "retrocausal_echo": {
+    "bpm": 140,
+    "division": 0.75,
+    "depth": 14,
+    "n_sites": 12,
+    "theta_x": 1.2,
+    "theta_zz": 0.9,
+    "theta_z": 0.5,
+    "negative_mode": "reverse",
+    "grain_ms": 120,
+    "feedback": 0.4,
+    "feedback_source": "kick",
+    "mix": 1.0,
+    "stereo_width": 1.0,
+    "decay": 0.9,
+    "machine": "aer"
+  },
+  "retrocausal_echo_jobs": {
+    "hype": "42d008ad-5f28-4c78-a1dd-2a45827199fd",
+    "collapse": "1714575d-0d1b-41b3-a920-eae593c62f37"
+  }
+}
